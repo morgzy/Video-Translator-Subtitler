@@ -15,7 +15,7 @@ List of compatible source and target languages, and their identifiers to be used
   
   -Bulgarian bg
   
-  -Catalan 
+  -Catalan ca
   
   -Arabic (Egypt) ar-EG
   
