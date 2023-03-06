@@ -10,8 +10,11 @@ How to use:
 List of compatible source and target languages, and their identifiers to be used in command line argument:
 
   -Afrikaans af
+  
   -Basque eu
+  
   -Bulgarian bg
+  
   -Catalan ca
   -Arabic (Egypt) ar-EG
   -Arabic (Jordan) ar-JO
