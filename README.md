@@ -30,6 +30,7 @@ List of compatible source and target languages, and their identifiers to be used
 -Arabic (Yemen) ar-YE
 -Czech cs
 -Dutch nl-NL
+-English en
 -English (Australia) en-AU
 -English (Canada) en-CA
 -English (India) en-IN
