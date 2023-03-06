@@ -26,6 +26,12 @@ parser.add_argument("source_lang")
 parser.add_argument("dest_lang")
 arguments = parser.parse_args()
 
+# Create directories if necessary
+directories = ["Videos", "SRT", "Translated"]
+for directory in directories:
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
 # Get file name and use delimiter
 file = arguments.source_file
 fileSplit = file.split('.')
@@ -132,6 +138,8 @@ os.system(sub)
 
 print("*** VIDEO TRANSLATION SUCCESSFUL ***")
 
+
+## LIST OF COMPATIBLE LANGUAGES
 # Afrikaans af
 # Basque eu
 # Bulgarian bg
